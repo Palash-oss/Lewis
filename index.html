@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCUDERIA FERRARI - Hamilton</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script> 
+</head>
+<body>
+
+    <div id="loader">
+        <div class="loader-content">
+            <div class="ferrari-logo">FERRARI</div>
+            <div class="driver-name">LEWIS HAMILTON</div>
+        </div>
+    </div>
+
+    <main>
+        <nav>
+            <h1>SCUDERIA <span style="color: #FF2800;">♦</span> FERRARI</h1>
+            <div id="option">
+                <ul>
+                    <li>DRIVERS</li>
+                    <li>CAR [SF-25]</li>
+                    <li>STANDINGS</li>
+                    <li>STORE</li>
+                </ul>
+            </div>
+            <div id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <section id="hero-section">
+            
+            <div id="redDot"></div>
+            <h1 class="big-text">HAMILTON</h1>
+
+            <div id="info">
+                <div style="display: flex; gap: 1rem;">
+                    <button>FORMULA 1</button>
+                    <button>HIGHLIGHTS</button>
+                </div>
+                <div style="font-weight:bold; letter-spacing:2px;">SEASON <span style="color:#FF2800">[2025]</span></div>
+            </div>
+
+            <div class="cast-names">
+                <span>DRIVER 44</span>
+                <span>LEWIS HAMILTON</span>
+                <span>CHARLES LECLERC</span>
+                <span>FRED VASSEUR</span>
+            </div>
+
+            <div id="character-wrapper">
+                <img src="hamilton.png" class="base-img" alt="Hamilton Base">
+                
+                <div class="reveal-layer">
+                    <img src="helmet.jpg" class="reveal-img" alt="Hamilton Reveal">
+                </div>
+            </div>
+
+            <div class="story">
+                <h3><i class="fa-solid fa-circle" style="color: #FF2800; font-size: 0.6rem;"></i> THE RED CHAPTER</h3>
+                <p>The seven-time world champion makes the historic move to Maranello.</p>
+            </div>
+
+            <button class="book-btn">SCROLL DOWN ↓</button>
+        </section>
+
+        <section id="gallery-section">
+            <div class="gallery-header">
+                <h2>ON TRACK <span style="color:#FF2800">/</span> OFF TRACK</h2>
+            </div>
+            
+            <div class="horizontal-scroll-wrapper">
+                <div class="scroll-row row-left">
+                    <div class="gallery-card"><img src="image1.jpg" alt="Hamilton"></div>
+                    <div class="gallery-card"><img src="image2.jpg" alt="Qatar"></div>
+                    <div class="gallery-card"><img src="image3.jpg" alt="Italy"></div>
+                    <div class="gallery-card"><img src="image4.jpg" alt="Miami"></div>
+                    <div class="gallery-card"><img src="image5.jpg" alt="Hamilton"></div>
+                    <div class="gallery-card"><img src="image6.jpg" alt="Qatar"></div>
+                </div>
+                
+                <div class="scroll-row row-right">
+                    <div class="gallery-card"><img src="image7.jpg" alt="Italy"></div>
+                    <div class="gallery-card"><img src="image8.jpg" alt="Miami"></div>
+                    <div class="gallery-card"><img src="image9.jpg" alt="Hamilton"></div>
+                    <div class="gallery-card"><img src="image10.jpg" alt="Qatar"></div>
+                    <div class="gallery-card"><img src="image11.jpg" alt="Italy"></div>
+                    <div class="gallery-card"><img src="image12.jpg" alt="Miami"></div>
+                </div>
+                
+                <div class="scroll-row row-left">
+                    <div class="gallery-card"><img src="image13.jpg" alt="Qatar"></div>
+                    <div class="gallery-card"><img src="image14.jpg" alt="Hamilton"></div>
+                    <div class="gallery-card"><img src="image15.jpg" alt="Miami"></div>
+                    <div class="gallery-card"><img src="image16.jpg" alt="Italy"></div>
+                    <div class="gallery-card"><img src="image17.jpg" alt="Qatar"></div>
+                    <div class="gallery-card"><img src="image18.jpg" alt="Hamilton"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
